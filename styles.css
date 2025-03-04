@@ -1,0 +1,122 @@
+.overall-con{
+    width: auto;
+    height: 100vh;
+    border-style: hidden ;
+    background-color: rgb(2, 2, 66);
+    margin: 0px;
+}
+
+.heading{
+    text-align: center;
+    justify-items: center;
+    
+}
+h1{
+    color: white;
+    font-size: 5rem;
+    text-shadow: 0 0 10px #a5aca5, 0 0 20px #a5aca5, 0 0 30px #a5aca5;
+}
+.drum{
+    width: 10%;
+    height: 10%;
+    
+    border-radius: 50%;
+}
+
+.keys{
+    display: inline;
+    background-color: rgba(245, 245, 245, 0.87);
+    border-radius: 10%;
+    color: rgb(129, 8, 129);
+    font-size: 6rem;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(30, 30, 90);
+    padding: 0px;
+    
+    
+}
+
+.drum-keys{
+display: flex;
+justify-content: space-between;
+width: 70%;
+margin: auto;
+margin-top: 150px;
+}
+
+
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .keys{
+        display: inline;
+        background-color: rgba(245, 245, 245, 0.87);
+        border-radius: 10%;
+        color: rgb(129, 8, 129);
+        font-size: 2rem;
+        padding: 2%;
+        
+    }
+
+    h1{
+
+        font-size: 3rem;
+    }
+    }
+
+    #crash , #tom1, #tom2, #tom3, #tom4{
+        background-image: url(crash.png);
+        background-size: contain;  /* Make sure it covers the entire area */
+        background-position: center;
+        background-repeat: no-repeat;  /* Prevent repeating */
+    }
+
+    #snare{
+        background-image: url(snare.png);
+        background-size: contain;  /* Make sure it covers the entire area */
+        background-position: center;
+        background-repeat: no-repeat;  /* Prevent repeating */
+    }
+
+    #bass{
+        background-image: url(kick.png);
+        background-size: contain;  /* Make sure it covers the entire area */
+        background-position: center;
+        background-repeat: no-repeat;  /* Prevent repeating */
+    }
+
+    #tom1{
+        background-image: url(tom1.png);
+        background-size: contain;  /* Make sure it covers the entire area */
+        background-position: center;
+        background-repeat: no-repeat;  /* Prevent repeating */
+    }
+
+    #tom2{
+        background-image: url(tom2.png);
+        background-size: contain;  /* Make sure it covers the entire area */
+        background-position: center;
+        background-repeat: no-repeat;  /* Prevent repeating */
+
+    }
+
+    #tom3{
+        background-image: url(tom3.png);
+        background-size: contain;  /* Make sure it covers the entire area */
+        background-position: center;
+        background-repeat: no-repeat;  /* Prevent repeating */
+    }
+
+    #tom4{
+        background-image: url(tom4.png);
+        background-size: contain;  /* Make sure it covers the entire area */
+        background-position: center;
+        background-repeat: no-repeat;  /* Prevent repeating */
+    }
+
+    .pressed{
+        box-shadow: 0px 3px 4px 0 #dbedf3;
+        opacity: 0.5;
+    }
+  
